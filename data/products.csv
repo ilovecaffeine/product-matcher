@@ -1,0 +1,16 @@
+﻿product_id,part_number,brand,bearing_type,bore_d_mm,outer_d_mm,width_b_mm,seal_type,clearance,material,dynamic_load_cr_kn,static_load_cor_kn,limiting_speed_rpm
+BRG-0001,6312,SKF,deep_groove_ball,60,130,31,open,CN,chrome_steel,85.2,52.0,7500
+BRG-0002,6312-2RS1,SKF,deep_groove_ball,60,130,31,seal_rubber,CN,chrome_steel,85.2,52.0,3400
+BRG-0003,6312-2Z/C3,SKF,deep_groove_ball,60,130,31,shield_steel,C3,chrome_steel,85.2,52.0,6700
+BRG-0004,6312 DDU C3,NSK,deep_groove_ball,60,130,31,seal_rubber,C3,chrome_steel,85.0,52.0,3400
+BRG-0005,6312-ZZ,FAG,deep_groove_ball,60,130,31,shield_steel,CN,chrome_steel,86.0,52.5,6700
+BRG-0006,6205,SKF,deep_groove_ball,25,52,15,open,CN,chrome_steel,14.8,7.8,18000
+BRG-0007,6205-2RSH,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.8,7.8,8500
+BRG-0008,6205-2Z,SKF,deep_groove_ball,25,52,15,shield_steel,CN,chrome_steel,14.8,7.8,15000
+BRG-0009,6205 DDU C3,NSK,deep_groove_ball,25,52,15,seal_rubber,C3,chrome_steel,14.0,7.85,8500
+BRG-0010,6205-2RS,KOYO,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.0,7.85,8500
+BRG-0011,W 6205-2RS1,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,stainless_steel,11.9,6.55,7500
+BRG-0012,608-2RS,SKF,deep_groove_ball,8,22,7,seal_rubber,CN,chrome_steel,3.45,1.37,22000
+BRG-0013,608-CE,Generic,deep_groove_ball,8,22,7,open,CN,ceramic,3.3,1.35,38000
+BRG-0014,30206 J2/Q,SKF,tapered_roller,30,62,17.25,open,CN,chrome_steel,43.3,43.0,11000
+BRG-0015,51105,NTN,thrust,25,42,11,open,CN,chrome_steel,19.5,37.0,5500
