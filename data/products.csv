@@ -1,16 +1,101 @@
 ﻿product_id,part_number,brand,bearing_type,bore_d_mm,outer_d_mm,width_b_mm,seal_type,clearance,material,dynamic_load_cr_kn,static_load_cor_kn,limiting_speed_rpm
-BRG-0001,6312,SKF,deep_groove_ball,60,130,31,open,CN,chrome_steel,85.2,52.0,7500
-BRG-0002,6312-2RS1,SKF,deep_groove_ball,60,130,31,seal_rubber,CN,chrome_steel,85.2,52.0,3400
-BRG-0003,6312-2Z/C3,SKF,deep_groove_ball,60,130,31,shield_steel,C3,chrome_steel,85.2,52.0,6700
-BRG-0004,6312 DDU C3,NSK,deep_groove_ball,60,130,31,seal_rubber,C3,chrome_steel,85.0,52.0,3400
-BRG-0005,6312-ZZ,FAG,deep_groove_ball,60,130,31,shield_steel,CN,chrome_steel,86.0,52.5,6700
-BRG-0006,6205,SKF,deep_groove_ball,25,52,15,open,CN,chrome_steel,14.8,7.8,18000
-BRG-0007,6205-2RSH,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.8,7.8,8500
-BRG-0008,6205-2Z,SKF,deep_groove_ball,25,52,15,shield_steel,CN,chrome_steel,14.8,7.8,15000
-BRG-0009,6205 DDU C3,NSK,deep_groove_ball,25,52,15,seal_rubber,C3,chrome_steel,14.0,7.85,8500
-BRG-0010,6205-2RS,KOYO,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.0,7.85,8500
-BRG-0011,W 6205-2RS1,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,stainless_steel,11.9,6.55,7500
-BRG-0012,608-2RS,SKF,deep_groove_ball,8,22,7,seal_rubber,CN,chrome_steel,3.45,1.37,22000
-BRG-0013,608-CE,Generic,deep_groove_ball,8,22,7,open,CN,ceramic,3.3,1.35,38000
-BRG-0014,30206 J2/Q,SKF,tapered_roller,30,62,17.25,open,CN,chrome_steel,43.3,43.0,11000
-BRG-0015,51105,NTN,thrust,25,42,11,open,CN,chrome_steel,19.5,37.0,5500
+BRG-0001,608,SKF,deep_groove_ball,8,22,7,open,CN,chrome_steel,3.45,1.37,38000
+BRG-0002,608-2RS1,SKF,deep_groove_ball,8,22,7,seal_rubber,CN,chrome_steel,3.45,1.37,22000
+BRG-0003,608-2Z,SKF,deep_groove_ball,8,22,7,shield_steel,CN,chrome_steel,3.45,1.37,34000
+BRG-0004,608 DDU,NSK,deep_groove_ball,8,22,7,seal_rubber,CN,chrome_steel,3.3,1.35,22000
+BRG-0005,608-ZZ,NSK,deep_groove_ball,8,22,7,shield_steel,CN,chrome_steel,3.3,1.35,34000
+BRG-0006,S608-2RS,EZO,deep_groove_ball,8,22,7,seal_rubber,CN,stainless_steel,2.8,1.15,20000
+BRG-0007,608-CE,Generic,deep_groove_ball,8,22,7,open,CN,ceramic,3.3,1.35,42000
+BRG-0008,624-2RS,EZO,deep_groove_ball,4,13,5,seal_rubber,CN,chrome_steel,1.3,0.49,30000
+BRG-0009,625-2RS,SKF,deep_groove_ball,5,16,5,seal_rubber,CN,chrome_steel,1.75,0.67,28000
+BRG-0010,626-ZZ,NSK,deep_groove_ball,6,19,6,shield_steel,CN,chrome_steel,2.6,1.05,32000
+BRG-0011,688-2RS,EZO,deep_groove_ball,8,16,5,seal_rubber,CN,chrome_steel,1.6,0.71,26000
+BRG-0012,698-ZZ,Nachi,deep_groove_ball,8,19,6,shield_steel,CN,chrome_steel,2.24,0.91,30000
+BRG-0013,6000,SKF,deep_groove_ball,10,26,8,open,CN,chrome_steel,4.75,1.96,30000
+BRG-0014,6000-2RSH,SKF,deep_groove_ball,10,26,8,seal_rubber,CN,chrome_steel,4.75,1.96,19000
+BRG-0015,6000-2Z,SKF,deep_groove_ball,10,26,8,shield_steel,CN,chrome_steel,4.75,1.96,26000
+BRG-0016,6001-2RS,KOYO,deep_groove_ball,12,28,8,seal_rubber,CN,chrome_steel,5.1,2.39,18000
+BRG-0017,6002-2RS1,SKF,deep_groove_ball,15,32,9,seal_rubber,CN,chrome_steel,5.85,2.85,15000
+BRG-0018,6003-2Z,FAG,deep_groove_ball,17,35,10,shield_steel,CN,chrome_steel,6.0,3.25,20000
+BRG-0019,6004,SKF,deep_groove_ball,20,42,12,open,CN,chrome_steel,9.95,5.0,17000
+BRG-0020,6004-2RS1/C3,SKF,deep_groove_ball,20,42,12,seal_rubber,C3,chrome_steel,9.95,5.0,11000
+BRG-0021,6004 DDU,NSK,deep_groove_ball,20,42,12,seal_rubber,CN,chrome_steel,9.4,5.05,11000
+BRG-0022,6005-2RS,KOYO,deep_groove_ball,25,47,12,seal_rubber,CN,chrome_steel,10.1,5.85,9500
+BRG-0023,6006-2Z,NTN,deep_groove_ball,30,55,13,shield_steel,CN,chrome_steel,13.2,8.3,13000
+BRG-0024,6007-2RS1,SKF,deep_groove_ball,35,62,14,seal_rubber,CN,chrome_steel,16.8,10.2,7500
+BRG-0025,6008-2RS,FAG,deep_groove_ball,40,68,15,seal_rubber,CN,chrome_steel,17.8,11.6,6700
+BRG-0026,6010-2RS1,SKF,deep_groove_ball,50,80,16,seal_rubber,CN,chrome_steel,22.9,16.6,5600
+BRG-0027,6200,SKF,deep_groove_ball,10,30,9,open,CN,chrome_steel,5.4,2.36,24000
+BRG-0028,6200-2RSH,SKF,deep_groove_ball,10,30,9,seal_rubber,CN,chrome_steel,5.4,2.36,17000
+BRG-0029,6200-2Z,SKF,deep_groove_ball,10,30,9,shield_steel,CN,chrome_steel,5.4,2.36,22000
+BRG-0030,6201-2RS,KOYO,deep_groove_ball,12,32,10,seal_rubber,CN,chrome_steel,6.8,3.05,15000
+BRG-0031,6201-ZZ,NSK,deep_groove_ball,12,32,10,shield_steel,CN,chrome_steel,6.8,3.05,19000
+BRG-0032,6202,SKF,deep_groove_ball,15,35,11,open,CN,chrome_steel,8.06,3.75,20000
+BRG-0033,6202-2RSH,SKF,deep_groove_ball,15,35,11,seal_rubber,CN,chrome_steel,8.06,3.75,13000
+BRG-0034,6202-2Z/C3,SKF,deep_groove_ball,15,35,11,shield_steel,C3,chrome_steel,8.06,3.75,17000
+BRG-0035,6203,SKF,deep_groove_ball,17,40,12,open,CN,chrome_steel,9.95,4.75,18000
+BRG-0036,6203-2RSH,SKF,deep_groove_ball,17,40,12,seal_rubber,CN,chrome_steel,9.95,4.75,12000
+BRG-0037,6203 DDU C3,NSK,deep_groove_ball,17,40,12,seal_rubber,C3,chrome_steel,9.55,4.8,12000
+BRG-0038,6203-ZZ,FAG,deep_groove_ball,17,40,12,shield_steel,CN,chrome_steel,9.8,4.75,16000
+BRG-0039,6204,SKF,deep_groove_ball,20,47,14,open,CN,chrome_steel,13.5,6.55,15000
+BRG-0040,6204-2RSH,SKF,deep_groove_ball,20,47,14,seal_rubber,CN,chrome_steel,13.5,6.55,10000
+BRG-0041,6204-2RSH/C3,SKF,deep_groove_ball,20,47,14,seal_rubber,C3,chrome_steel,13.5,6.55,10000
+BRG-0042,6204-2Z,SKF,deep_groove_ball,20,47,14,shield_steel,CN,chrome_steel,13.5,6.55,14000
+BRG-0043,6204-2Z/C3,SKF,deep_groove_ball,20,47,14,shield_steel,C3,chrome_steel,13.5,6.55,14000
+BRG-0044,6204 DDU,NSK,deep_groove_ball,20,47,14,seal_rubber,CN,chrome_steel,12.8,6.65,10000
+BRG-0045,6204-2RS,KOYO,deep_groove_ball,20,47,14,seal_rubber,CN,chrome_steel,12.8,6.65,10000
+BRG-0046,W 6204-2RS1,SKF,deep_groove_ball,20,47,14,seal_rubber,CN,stainless_steel,10.8,5.5,9000
+BRG-0047,S6204ZZ,EZO,deep_groove_ball,20,47,14,shield_steel,CN,stainless_steel,10.8,5.5,12000
+BRG-0048,6205,SKF,deep_groove_ball,25,52,15,open,CN,chrome_steel,14.8,7.8,13000
+BRG-0049,6205-2RSH,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.8,7.8,8500
+BRG-0050,6205-2RSH/C3,SKF,deep_groove_ball,25,52,15,seal_rubber,C3,chrome_steel,14.8,7.8,8500
+BRG-0051,6205-2Z,SKF,deep_groove_ball,25,52,15,shield_steel,CN,chrome_steel,14.8,7.8,12000
+BRG-0052,6205-2Z/C3,SKF,deep_groove_ball,25,52,15,shield_steel,C3,chrome_steel,14.8,7.8,12000
+BRG-0053,6205 DDU C3,NSK,deep_groove_ball,25,52,15,seal_rubber,C3,chrome_steel,14.0,7.85,8500
+BRG-0054,6205-2RS,KOYO,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.0,7.85,8500
+BRG-0055,6205 LLU,NTN,deep_groove_ball,25,52,15,seal_rubber,CN,chrome_steel,14.0,7.85,8500
+BRG-0056,W 6205-2RS1,SKF,deep_groove_ball,25,52,15,seal_rubber,CN,stainless_steel,11.9,6.55,7500
+BRG-0057,6206-2RS1,SKF,deep_groove_ball,30,62,16,seal_rubber,CN,chrome_steel,20.3,11.2,7500
+BRG-0058,6206-2Z/C3,FAG,deep_groove_ball,30,62,16,shield_steel,C3,chrome_steel,20.0,11.2,10000
+BRG-0059,6207-2RS1,SKF,deep_groove_ball,35,72,17,seal_rubber,CN,chrome_steel,27.0,15.3,6300
+BRG-0060,6208-2RS1,SKF,deep_groove_ball,40,80,18,seal_rubber,CN,chrome_steel,32.5,19.0,5600
+BRG-0061,6209-2RS,KOYO,deep_groove_ball,45,85,19,seal_rubber,CN,chrome_steel,34.1,21.3,5000
+BRG-0062,6210-2RS1,SKF,deep_groove_ball,50,90,20,seal_rubber,CN,chrome_steel,37.1,23.2,4800
+BRG-0063,6212-2RS1,SKF,deep_groove_ball,60,110,22,seal_rubber,CN,chrome_steel,55.3,36.0,4000
+BRG-0064,6215,SKF,deep_groove_ball,75,130,25,open,CN,chrome_steel,68.9,49.0,5000
+BRG-0065,6300-2RS,KOYO,deep_groove_ball,10,35,11,seal_rubber,CN,chrome_steel,8.1,3.45,16000
+BRG-0066,6301-2Z,NSK,deep_groove_ball,12,37,12,shield_steel,CN,chrome_steel,9.7,4.2,18000
+BRG-0067,6302-2RS1,SKF,deep_groove_ball,15,42,13,seal_rubber,CN,chrome_steel,11.9,5.4,12000
+BRG-0068,6303-2RS1/C3,SKF,deep_groove_ball,17,47,14,seal_rubber,C3,chrome_steel,14.3,6.55,11000
+BRG-0069,6304-2RS1,SKF,deep_groove_ball,20,52,15,seal_rubber,CN,chrome_steel,16.8,7.8,9500
+BRG-0070,6304-2Z/C3,SKF,deep_groove_ball,20,52,15,shield_steel,C3,chrome_steel,16.8,7.8,13000
+BRG-0071,6305,SKF,deep_groove_ball,25,62,17,open,CN,chrome_steel,23.4,11.6,11000
+BRG-0072,6305-2RS1,SKF,deep_groove_ball,25,62,17,seal_rubber,CN,chrome_steel,23.4,11.6,7500
+BRG-0073,6305-2RS1/C3,SKF,deep_groove_ball,25,62,17,seal_rubber,C3,chrome_steel,23.4,11.6,7500
+BRG-0074,6305-2Z,SKF,deep_groove_ball,25,62,17,shield_steel,CN,chrome_steel,23.4,11.6,10000
+BRG-0075,6306-2RS1,SKF,deep_groove_ball,30,72,19,seal_rubber,CN,chrome_steel,29.6,16.0,6300
+BRG-0076,6307-2RS1,SKF,deep_groove_ball,35,80,21,seal_rubber,CN,chrome_steel,35.1,19.0,5600
+BRG-0077,6308-2RS1,SKF,deep_groove_ball,40,90,23,seal_rubber,CN,chrome_steel,42.3,24.0,5000
+BRG-0078,6309-2RS1,SKF,deep_groove_ball,45,100,25,seal_rubber,CN,chrome_steel,55.3,31.5,4500
+BRG-0079,6310-2RS1,SKF,deep_groove_ball,50,110,27,seal_rubber,CN,chrome_steel,65.0,38.0,4000
+BRG-0080,6312,SKF,deep_groove_ball,60,130,31,open,CN,chrome_steel,85.2,52.0,6700
+BRG-0081,6312-2RS1,SKF,deep_groove_ball,60,130,31,seal_rubber,CN,chrome_steel,85.2,52.0,3400
+BRG-0082,6312-2RS1/C3,SKF,deep_groove_ball,60,130,31,seal_rubber,C3,chrome_steel,85.2,52.0,3400
+BRG-0083,6312 DDU C3,NSK,deep_groove_ball,60,130,31,seal_rubber,C3,chrome_steel,85.0,52.0,3400
+BRG-0084,6312-ZZ,FAG,deep_groove_ball,60,130,31,shield_steel,CN,chrome_steel,86.0,52.5,5600
+BRG-0085,30204,SKF,tapered_roller,20,47,15.25,open,CN,chrome_steel,28.5,27.0,12000
+BRG-0086,30205,KOYO,tapered_roller,25,52,16.25,open,CN,chrome_steel,35.2,34.0,10000
+BRG-0087,30206 J2/Q,SKF,tapered_roller,30,62,17.25,open,CN,chrome_steel,43.3,43.0,8500
+BRG-0088,30207,TIMKEN,tapered_roller,35,72,18.25,open,CN,chrome_steel,54.0,53.0,7500
+BRG-0089,30208,SKF,tapered_roller,40,80,19.75,open,CN,chrome_steel,63.8,71.0,7000
+BRG-0090,30305,NTN,tapered_roller,25,62,18.25,open,CN,chrome_steel,47.0,44.0,8500
+BRG-0091,NU 204 ECP,SKF,cylindrical_roller,20,47,14,open,CN,chrome_steel,26.0,21.6,15000
+BRG-0092,NU 205 ECP,SKF,cylindrical_roller,25,52,15,open,CN,chrome_steel,29.0,24.5,13000
+BRG-0093,NJ 205 ECP,SKF,cylindrical_roller,25,52,15,open,CN,chrome_steel,29.0,24.5,13000
+BRG-0094,51104,SKF,thrust_ball,20,35,10,open,CN,chrome_steel,14.3,23.6,6300
+BRG-0095,51105,NTN,thrust_ball,25,42,11,open,CN,chrome_steel,19.5,37.0,5600
+BRG-0096,HK 1512,INA,needle_roller,15,21,12,open,CN,chrome_steel,7.3,9.1,16000
+BRG-0097,1205 EKTN9,SKF,self_aligning_ball,25,52,15,open,CN,chrome_steel,14.3,4.0,12000
+BRG-0098,7205 BEP,SKF,angular_contact_ball,25,52,15,open,CN,chrome_steel,15.6,10.2,13000
+BRG-0099,C 2205 KTN9,SKF,carb_toroidal_roller,25,52,18,open,CN,chrome_steel,35.2,33.5,11000
+BRG-0100,UC 205,ASAHI,insert_ball_bearing,25,52,34.1,seal_rubber,CN,chrome_steel,14.0,7.85,6500
