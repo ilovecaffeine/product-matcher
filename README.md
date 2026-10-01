@@ -61,7 +61,7 @@ pip install -r requirements.txt
 Khởi chạy chương trình tìm kiếm tương tác:
 
 ```bash
-python main.py
+python -m src.main
 ```
 
 ### Minh họa chạy thực tế trên Terminal:
@@ -122,11 +122,3 @@ Cơ sở dữ liệu sản phẩm bao gồm các trường thông số kỹ thu�
 | `limiting_speed_rpm` | Int | Tốc độ vòng quay tối đa | `10000` |
 
 ---
-
-## Kiểm thử (Testing)
-
-Chạy bộ unit test tự động bằng `pytest`:
-
-```bash
-python -m pytest tests/test_matcher.py -v
-```

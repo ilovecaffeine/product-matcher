@@ -2,6 +2,7 @@
 parser.py
 Module phân tích truy vấn của người dùng (Query Text) 
 thành cấu trúc dữ liệu JSON Specification cho Vòng bi.
+python src/parser.py
 """
 
 import json

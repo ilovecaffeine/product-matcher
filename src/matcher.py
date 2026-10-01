@@ -2,6 +2,7 @@
 src/matcher.py
 Module nhận JSON Specification từ src/parser.py 
 và tìm kiếm top N sản phẩm phù hợp nhất trong data/products.csv.
+python src/matcher.py
 """
 
 import pandas as pd
@@ -63,14 +64,17 @@ class ProductMatcher:
             req_part_str = str(req_part).upper() if req_part else ""
             req_base_str = str(req_base_part).upper() if req_base_part else ""
 
-            # Nếu khớp chính xác mã đầy đủ trong CSV
-            if req_part_str and row_part == req_part_str:
-                score += 35.0
-            # Nếu khớp mã cơ sở (VD: 608) với phần đầu của mã trong CSV
-            elif req_base_str and (row_part == req_base_str or row_part.startswith(req_base_str)):
-                score += 30.0
-            elif req_part_str in row_part or row_part in req_part_str:
-                score += 20.0
+            # Chỉ tính điểm nếu có thông tin part number từ spec
+            if req_part_str or req_base_str:
+                # Nếu khớp chính xác mã đầy đủ trong CSV
+                if req_part_str and row_part == req_part_str:
+                    score += 35.0
+                # Nếu khớp mã cơ sở (VD: 608) với phần đầu của mã trong CSV
+                elif req_base_str and (row_part == req_base_str or row_part.startswith(req_base_str)):
+                    score += 30.0
+                # Nếu khớp một phần (yêu cầu req_part_str không được rỗng)
+                elif req_part_str and (req_part_str in row_part or row_part in req_part_str):
+                    score += 20.0
 
         # 2. Khớp kích thước (30 điểm)
         req_d = spec.get("bore_d_mm")

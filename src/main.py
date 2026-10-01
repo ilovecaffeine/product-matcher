@@ -1,12 +1,13 @@
 """
 main.py
 Ứng dụng CLI tìm kiếm sản phẩm vòng bi/bạc đạn dựa trên Parser và Matcher.
+python -m src.main
 """
 
 import json
 import sys
-from parser import parse_query
-from matcher import ProductMatcher
+from src.parser import parse_query
+from src.matcher import ProductMatcher
 
 
 def main():
